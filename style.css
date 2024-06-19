@@ -1,96 +1,25 @@
 .container{
-    height: 100%;
-    width: 100%;
-    background-color: yellow;
-    border: 2px solid red;
+    height: 1000px;
+    width: 1500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
 }
 
-#box1{
-    height: 212px;
-    width: 212px;
-    border: 2px solid black;
-    background-color: white;
-    animation-name: Ritesh1;
-    animation-duration: 3s;
-    animation-iteration-count: 4;
-    animation-timing-function: linear;
-    animation-delay: 1s;
-    animation-direction:inherit;
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 200px;
+    border: 2px solid orange;
+    background-color: aqua;
+    /* transition-property: background-color;
+    transition-delay: 2s; */
+    transition: transform 3s ease 1s;
+
 }
-
-#box2{
-    height: 212px;
-    width: 212px;
-    border: 2px solid black;
-    background-color: white;
-    animation-name: Ritesh2;
-    animation-duration: 3s;
-    animation-iteration-count: 4;
-    animation-timing-function: linear;
-    animation-delay: 1s;
-    animation-direction:inherit;
-}
-
-#box3{
-    height: 212px;
-    width: 212px;
-    border: 2px solid black;
-    background-color: white;
-    animation-name: Ritesh3;
-    animation-duration: 3s;
-    animation-iteration-count: 4;
-    animation-timing-function: linear;
-    animation-delay: 1s;
-    animation-direction:inherit;
-}
-
-
-@keyframes Ritesh1{
-    /* from{
-      width: 212px;
-    }
-
-    to{
-        width: 800px;
-    } */
-
-    100%{
-        width: 100%;
-        background-color: orange;
-    }
-    
-    /* 50%{
-        width: 50%;
-        background-color:;
-    }
-    100%{
-        width: 99%;
-        background-color: blueviolet;
-    } */
-}
-
-@keyframes Ritesh2{
-    /* 0%{
-        width: 212px;
-        background-color: white;
-    }
-    40%{
-        width: 40%;
-        background-color: blue;
-    }
-    60%{
-        width: 60%;
-        background-color: white;
-    } */
-    100%{
-        width: 100%;
-        background-color: white;
-    }
-}
-
-@keyframes Ritesh3{
-    100%{
-        width: 100%;
-        background-color:  green;
-    }
+.box:hover{
+    background-color: rgb(98, 0, 255);
+    transition: 10s;
+    transform: translateX(200px) rotate(4400deg);
+    scale: 2;
 }
