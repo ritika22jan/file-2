@@ -1,15 +1,9 @@
-h1{
-    text-shadow: 5px 3px 10px red ,5px 5px 2px green;
-}
-
-
 .box{
-    background-color: aqua;
+    background-color:aqua ;
     border: 1px solid black;
-    font-size: 60px;
-    height: 300px;
-    width: 300px;
-    box-shadow: -10px -10px 10px green,10px 10px 10px yellow  ;
-    color: green;
-
+    /* transform: translate(100px,100px); */
+    /* transform: rotate(45deg); */
+    margin: 200px;
+    transform: scale(5.5,10);
+    transform: skew(20deg);
 }
