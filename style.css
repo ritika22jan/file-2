@@ -1,79 +1,41 @@
-*{
-    box-sizing: border-box;
-}
-
-
-.container{
-    height: 400px;
-    border: 2px solid black;
-    display: flex;
-    /* flex-direction:row; */
-    flex-wrap: wrap;
-
-    /* flex-flow: row wrap; */
-    
-    /* justify-content: space-evenly; */
-    /* justify-content: space around; */
-    /* justify-content: space-between; */
-    /* justify-content: flex-start; */
-    /* justify-content: flex-end; */
-    /* justify-content: center; */
-    justify-content: center;
-    
-   
-    /* gap: 20px; */
-
-    /* [justify-content] property applies only on main axis and [align-items] property applies only on cross axis */
-
-    align-items: center;
- /* align-items: stretch;
-    align-items: flex-end;
-    align-items: flex-start;
-    align-items: center;
-    align-items: baseline; */
-
-/* to maintain space between two rows of  items in a container [align-content] is used */
-
-    align-content: flex-start;
- /* align-content: flex-end;
-    align-content: center; 
-    align-content: space-around; 
-    align-content: space-between; 
-    align-content: space-evenly;  */
-    
-
-}
-
-.box{
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua  ;
     border: 1px solid black;
-    background-color: aqua;
-    /* width: 200px; */
-    flex-basis: 200px;
-    flex-basis: 50%;
-
-  /* [width] and [flex-basis] both has control on width only. */
-
-}
-
-#box2{
-    order: 3;
-    /* flex-shrink: 5; */
-    /* align-self: stretch; */
 }
 
 #box3{
-    order: 2;
-    /* align-self: flex-end; */
+    
+  position:absolute;
+  top: 100px;
+  left: 50px;   
 }
+
+/* #box1{
+    position: fixed;
+} */
+/* #box1{
+    position: sticky;
+    top: 0px;
+}
+#box2{
+    position: sticky;
+    top: 0px;
+}
+#box3{
+    position: sticky;
+    top: 0px;
+} */
 
 #box4{
-    order: 1;
-    /* flex-grow: 1; */
+    position: sticky;
+    top: 0px;
 }
 
-#box1{
-    order: 2;
-    /* flex-grow: 1; */
-    /* flex-shrink: 10; */
-    /* align-self: flex-start; */
+.wrapper{
+    width: 100vw;
+    height: 2000px;
+    background-color: yellow;
 }
