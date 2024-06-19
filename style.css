@@ -1,0 +1,96 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+#box1{
+    height: 212px;
+    width: 212px;
+    border: 2px solid black;
+    background-color: white;
+    animation-name: Ritesh1;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction:inherit;
+}
+
+#box2{
+    height: 212px;
+    width: 212px;
+    border: 2px solid black;
+    background-color: white;
+    animation-name: Ritesh2;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction:inherit;
+}
+
+#box3{
+    height: 212px;
+    width: 212px;
+    border: 2px solid black;
+    background-color: white;
+    animation-name: Ritesh3;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction:inherit;
+}
+
+
+@keyframes Ritesh1{
+    /* from{
+      width: 212px;
+    }
+
+    to{
+        width: 800px;
+    } */
+
+    100%{
+        width: 100%;
+        background-color: orange;
+    }
+    
+    /* 50%{
+        width: 50%;
+        background-color:;
+    }
+    100%{
+        width: 99%;
+        background-color: blueviolet;
+    } */
+}
+
+@keyframes Ritesh2{
+    /* 0%{
+        width: 212px;
+        background-color: white;
+    }
+    40%{
+        width: 40%;
+        background-color: blue;
+    }
+    60%{
+        width: 60%;
+        background-color: white;
+    } */
+    100%{
+        width: 100%;
+        background-color: white;
+    }
+}
+
+@keyframes Ritesh3{
+    100%{
+        width: 100%;
+        background-color:  green;
+    }
+}
